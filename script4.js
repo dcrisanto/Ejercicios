@@ -3,7 +3,6 @@
 array4 = ['hola', 'Hola', 'Dorelly', 'mundo', 'Juan Diego', 'mundo', 'Roxana'];
 arrayUnique = [];
 elementsRepeated = [];
-newArray4 = [];
 for(var z=0; z < array4.length; z++){
   if(!arrayUnique.includes(array4[z])){
     arrayUnique.push(array4[z]);
